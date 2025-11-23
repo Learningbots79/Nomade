@@ -91,15 +91,6 @@ python3 main.py
 
 </details>
 
----
-
-<p align="center">
-  <a href="https://sevalla.com"><img src="https://img.shields.io/badge/Deploy%20on-Sevalla-orange?style=for-the-badge&logo=vercel"></a>
-</p>
-
-> ✅ You can easily deploy this Group help bot on **[Sevalla](https://sevalla.com)** – A powerful and beginner-friendly hosting platform.
----
-
 <div align="center">
 
 ### ☕ Support Me!
