@@ -64,17 +64,30 @@ pip install --upgrade pip && pip install -r requirements.txt
 
 ### 6. Configure the Bot
 ```
-nano config.py
+nano env
 ```
 
 ⚙️ required fields
 
 ```
-API_ID = your_api_id
-API_HASH = "your_api_hash"
-BOT_TOKEN = "your_bot_token"
-MONGO_URL = "your_mongodb_url"
-OWNER_ID = your_tg_id
+# Telegram API
+API_ID=
+API_HASH=
+BOT_TOKEN=
+
+# MongoDB
+MONGO_URI=
+DB_NAME=Cluster0
+
+# Owner and Bot Info
+OWNER_ID=
+BOT_USERNAME=NomadeHelpBot
+
+# Links & Visuals
+SUPPORT_GROUP=https://t.me/learning_bots
+UPDATE_CHANNEL=https://t.me/learningbots79
+START_IMAGE=https://files.catbox.moe/j2yhce.jpg
+
 ```
 
 ✅ Save with: `Ctrl + O`, then Enter  
