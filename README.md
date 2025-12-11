@@ -120,8 +120,8 @@ python3 main.py
 
 <p align="center">
 <a href="https://www.instagram.com/learning_bots"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
-<a href="https://t.me/learning_bots"><img src="https://img.shields.io/badge/Telegram%20Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-<a href="https://t.me/learningbots79"><img src="https://img.shields.io/badge/Telegram%20Channel-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/LearningBotsCommunity"><img src="https://img.shields.io/badge/Telegram%20Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a href="https://t.me/learning_bots"><img src="https://img.shields.io/badge/Telegram%20Channel-0088cc?style=for-the-badge&logo=telegram&logoColor=white"></a>
 <a href="https://youtube.com/@learning_bots?si=aNUuRSfZD7na78GM"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 </p>
 
@@ -142,11 +142,11 @@ This project is open-source under a **custom license** by [Yash](https://github.
 - Claim ownership or re-upload it without permission  
 
 If you want to use this project commercially,  
-please contact the author at [@learningbots79](https://t.me/learningbots79).
+please contact the author at [LearningBotsOfficial](https://t.me/LearningBotsOfficial).
 
 ---
 
 **Author:** [learningbots79](https://github.com/learningbots79)  
-**Support Group:** [@learning_bots](https://t.me/learning_bots)  
-**Update Channel:** [@learningbots79](https://t.me/learningbots79)  
+**Support Group:** [@LearningBotsCommunity](https://t.me/LearningBotsCommunity)  
+**Update Channel:** [@learning_bots](https://t.me/learning_bots)  
 **YouTube:** [Learning Bots](https://youtube.com/@learning_bots)
