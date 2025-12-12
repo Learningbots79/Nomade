@@ -7,6 +7,15 @@
 ![Stars](https://img.shields.io/github/stars/learningbots79/Nomade)
 ![Forks](https://img.shields.io/github/forks/learningbots79/Nomade)
 
+<div align="center">
+
+<a href="https://t.me/NomadeHelpBot" target="_blank">
+  <img src="https://img.shields.io/badge/➡️%20Launch%20Nomade%20Official%20Bot-0A66C2?style=for-the-badge&logo=telegram&logoColor=white&colorA=000000&colorB=1E90FF" width="380">
+</a>
+
+</div>
+
+
 ----------------------------------------------------
 A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Telegram groups
 
