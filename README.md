@@ -19,18 +19,6 @@
 
 
 
----
-
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=Learningbots79&repo=Nomade&label=Nomade%20Repo%20Views&color=1E90FF&style=flat-square&abbreviated=true" />
-
-</div>
-
-
-
-
-
 ----------------------------------------------------
 A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Telegram groups
 
