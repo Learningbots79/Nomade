@@ -10,10 +10,11 @@
 <div align="center">
 
 <a href="https://t.me/NomadeHelpBot" target="_blank">
-  <img src="https://img.shields.io/badge/➡️%20Launch%20Nomade%20Official%20Bot-0A66C2?style=for-the-badge&logo=telegram&logoColor=white&colorA=000000&colorB=1E90FF" width="380">
+  <img src="https://img.shields.io/badge/OPEN%20OFFICIAL%20NOMADE%20BOT-1E90FF?style=for-the-badge&logo=telegram&logoColor=white&labelColor=000000" width="350"/>
 </a>
 
 </div>
+
 
 
 ----------------------------------------------------
