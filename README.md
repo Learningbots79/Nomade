@@ -4,6 +4,9 @@
   <img src="https://files.catbox.moe/j2yhce.jpg" width="300" height="300" />
 </a>
 
+![Stars](https://img.shields.io/github/stars/learningbots79/smm_panel_bot)
+![Forks](https://img.shields.io/github/forks/learningbots79/smm_panel_bot)
+
 ----------------------------------------------------
 A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Telegram groups
 
