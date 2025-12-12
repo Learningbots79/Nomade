@@ -7,15 +7,13 @@
 ![Stars](https://img.shields.io/github/stars/learningbots79/Nomade)
 ![Forks](https://img.shields.io/github/forks/learningbots79/Nomade)
 
-<div align="center">
-
 ## 👁️ Nomade Repo Views
 
-<a href="https://github.com/Learningbots79/Nomade">
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLearningbots79%2FNomade&count_bg=%23007EC6&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
-</a>
-
-</div>
+<p align="center">
+  <a href="https://github.com/Learningbots79/Nomade">
+    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLearningbots79%2FNomade&count_bg=%23007EC6&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
+  </a>
+</p>
 
 
 
