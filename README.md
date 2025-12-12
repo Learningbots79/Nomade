@@ -10,11 +10,11 @@
 <div align="center">
 
 <a href="https://t.me/NomadeHelpBot" target="_blank">
-  <img src="https://img.icons8.com/color/452/telegram-app.png" height="60" alt="Telegram Logo" />
-  <img src="https://img.shields.io/badge/OPEN%20OFFICIAL%20NOMADE%20BOT-1E90FF?style=for-the-badge&logoColor=white" height="60" />
+  <img src="https://img.shields.io/badge%20Nomade%20Official%20Bot-0F172A?style=for-the-badge&logo=telegram&logoColor=white&color=1E3A8A" height="60" />
 </a>
 
 </div>
+
 
 
 
