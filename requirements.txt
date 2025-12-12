@@ -1,3 +1,11 @@
+# ============================================================
+#Group Manager Bot
+# Author: learningbots79 (https://github.com/learningbots79) 
+# Support: https://t.me/LearningBotsCommunity
+# Channel: https://t.me/learning_bots
+# YouTube: https://youtube.com/@learning_bots
+# License: Open-source (keep credits, no resale)
+# ============================================================
 pyrogram==2.0.106
 tgcrypto==1.2.5
 motor==3.1.1

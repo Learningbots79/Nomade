@@ -1,4 +1,12 @@
-########################################
+# ============================================================
+#Group Manager Bot
+# Author: learningbots79 (https://github.com/learningbots79) 
+# Support: https://t.me/LearningBotsCommunity
+# Channel: https://t.me/learning_bots
+# YouTube: https://youtube.com/@learning_bots
+# License: Open-source (keep credits, no resale)
+# ============================================================
+
 # Start from a lightweight Python image
 FROM python:3.10-slim
 WORKDIR /app
