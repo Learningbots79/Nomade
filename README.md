@@ -9,11 +9,14 @@
 
 <div align="center">
 
-<a href="https://t.me/NomadeHelpBot" target="_blank">
-  <img src="https://img.shields.io/badge/Open Nomade Official Bot-0A66C2?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0F172A&color=1D4ED8" width="250">
+## 🔥 Repository Views
+
+<a href="https://github.com/Learningbots79/Nomade">
+  <img src="https://komarev.com/ghpvc/?username=Learningbots79&label=Total%20Repo%20Views&color=blue&style=for-the-badge" />
 </a>
 
 </div>
+
 
 ---
 
