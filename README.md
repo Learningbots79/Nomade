@@ -9,13 +9,14 @@
 
 <div align="center">
 
-## 🔥 Repository Views
+## 👁️ Nomade Repo Views
 
 <a href="https://github.com/Learningbots79/Nomade">
-  <img src="https://komarev.com/ghpvc/?username=Learningbots79&label=Total%20Repo%20Views&color=blue&style=for-the-badge" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/Learningbots79/Nomade&count_bg=%23007EC6&title_bg=%23555555&icon=github.svg&icon_color=%23E7E7E7&title=Views&edge_flat=false"/>
 </a>
 
 </div>
+
 
 
 ---
