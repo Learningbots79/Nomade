@@ -46,7 +46,7 @@ Highlights:
                 InlineKeyboardButton("⌂ Update ⌂", url=UPDATE_CHANNEL),
             ],
             [
-                InlineKeyboardButton("※ ŎŴɳēŔ ※", user_id=OWNER_ID)
+                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://user?id={OWNER_ID}")
             ],
             [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
         ])
@@ -64,7 +64,7 @@ Highlights:
 # ==========================================================
     @app.on_message(filters.private & filters.command("start"))
     async def start_command(client, message):
-        user = message.from_user.id
+        user = message.from_user
         await db.add_user(user.id, user.first_name)
         await send_start_menu(message, user.first_name)
 
