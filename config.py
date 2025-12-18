@@ -1,6 +1,6 @@
 # ============================================================
 #Group Manager Bot
-# Author: learningbots79 (https://github.com/learningbots79) 
+# Author: LearningBotsOfficial (https://github.com/LearningBotsOfficial) 
 # Support: https://t.me/LearningBotsCommunity
 # Channel: https://t.me/learning_bots
 # YouTube: https://youtube.com/@learning_bots
@@ -21,6 +21,6 @@ OWNER_ID = int(os.getenv("OWNER_ID", 0))
 BOT_USERNAME = os.getenv("BOT_USERNAME", "NomadeHelpBot")
 
 # Links and visuals
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/learning_bots")
-UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "https://t.me/learningbots79")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/LearningBotsCommunity")
+UPDATE_CHANNEL = os.getenv("UPDATE_CHANNEL", "https://t.me/Learning_Bots")
 START_IMAGE = os.getenv("START_IMAGE", "https://files.catbox.moe/j2yhce.jpg")

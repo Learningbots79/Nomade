@@ -4,8 +4,8 @@
   <img src="https://files.catbox.moe/j2yhce.jpg" width="300" height="300" />
 </a>
 
-![Stars](https://img.shields.io/github/stars/learningbots79/Nomade)
-![Forks](https://img.shields.io/github/forks/learningbots79/Nomade)
+![Stars](https://img.shields.io/github/stars/LearningBotsOfficial/Nomade)
+![Forks](https://img.shields.io/github/forks/LearningBotsOfficial/Nomade)
 
 ----------------------------------------------------
 A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Telegram groups
@@ -34,7 +34,7 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 ### 2. Get Your Fork URL
 ```
-https://github.com/<your-username>/group_manager_bot.git
+https://github.com/<your-username>/Nomade.git
 ```
 
 ---
@@ -50,8 +50,8 @@ sudo apt install -y git python3 python3-pip python3-venv tmux nano
 
 ### 4. Clone Your Fork
 ```
-git clone https://github.com/<your-username>/group_manager_bot.git
-cd group_manager_bot
+git clone https://github.com/<your-username>/Nomade.git
+cd Nomade
 python3 -m venv venv
 source venv/bin/activate
 ```
@@ -87,8 +87,8 @@ OWNER_ID=
 BOT_USERNAME=NomadeHelpBot
 
 # Links & Visuals
-SUPPORT_GROUP=https://t.me/learning_bots
-UPDATE_CHANNEL=https://t.me/learningbots79
+SUPPORT_GROUP=https://t.me/LearningBotsCommunity
+UPDATE_CHANNEL=https://t.me/LearningBotsOfficial
 START_IMAGE=https://files.catbox.moe/j2yhce.jpg
 
 ```
@@ -132,7 +132,7 @@ python3 main.py
 
 ## ⚠️ License / Usage Terms
 
-This project is open-source under a **custom license** by [Yash](https://github.com/learningbots79).
+This project is open-source under a **custom license** by [Yash](https://github.com/LearningBotsOfficial).
 
 ✅ You Can:
 - Use this code for personal or educational purposes  
@@ -149,7 +149,7 @@ please contact the author at [LearningBotsOfficial](https://t.me/LearningBotsOff
 
 ---
 
-**Author:** [learningbots79](https://github.com/learningbots79)  
+**Author:** [LearningBotsOfficial](https://github.com/LearningBotsOfficial)  
 **Support Group:** [@LearningBotsCommunity](https://t.me/LearningBotsCommunity)  
 **Update Channel:** [@learning_bots](https://t.me/learning_bots)  
 **YouTube:** [Learning Bots](https://youtube.com/@learning_bots)

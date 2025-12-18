@@ -1,6 +1,6 @@
 # License for Nomad – Telegram Group Manager Bot
 
-**Author:** [learningbots79](https://github.com/learningbots79)  
+**Author:** [LearningBotsOfficial](https://github.com/LearningBotsOfficial)  
 **Support Group:** [@LearningBotsCommunity](https://t.me/LearningBotsCommunity)  
 **Update Channel:** [@learning_bots](https://t.me/learning_bots)  
 **YouTube:** [Learning Bots](https://youtube.com/@learning_bots)

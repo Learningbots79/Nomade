@@ -1,6 +1,6 @@
 # ============================================================
 #Group Manager Bot
-# Author: learningbots79 (https://github.com/learningbots79) 
+# Author: LearningBotsOfficial (https://github.com/LearningBotsOfficial) 
 # Support: https://t.me/LearningBotsCommunity
 # Channel: https://t.me/learning_bots
 # YouTube: https://youtube.com/@learning_bots
