@@ -64,7 +64,7 @@ Highlights:
 # ==========================================================
     @app.on_message(filters.private & filters.command("start"))
     async def start_command(client, message):
-        user = message.from_user
+        user = message.from_user.id
         await db.add_user(user.id, user.first_name)
         await send_start_menu(message, user.first_name)
 
