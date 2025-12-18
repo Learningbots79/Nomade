@@ -22,6 +22,27 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 - **MongoDB Storage** for data persistence  
 - **Beautiful Inline UI** and modular codebase  
 
+## ---------------------
+
+
+<details>
+<summary><b>🔸 Free Hosting</b></summary>
+
+---
+
+> *We are going to host this bot on Render. To deploy it, we need to change a few codes, so watch the tutorial properly before deploying.*
+
+<p align="center">
+  <!-- Upgraded Video Button -->
+  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+    <img src="https://img.shields.io/badge/Watch%20Tutorial-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Tutorial">
+  </a>
+
+  &nbsp;&nbsp;
+</p>
+
+</details>
+
 ---
 <details>
 <summary><b>🔸 Deploy on VPS / Localhost</b></summary>
@@ -67,7 +88,7 @@ pip install --upgrade pip && pip install -r requirements.txt
 
 ### 6. Configure the Bot
 ```
-nano env
+nano .env
 ```
 
 ⚙️ required fields
@@ -107,17 +128,10 @@ python3 main.py
 
 </details>
 
-<div align="center">
-
-### ☕ Support Me!
-
-<a href="https://files.catbox.moe/4elv8g.jpg" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" width="190" alt="Buy Me a Coffee" />
-</a>
-
-</div>
 
 ---
+
+## ---------------------
 
 ## 📱 Connect with Me
 
@@ -153,3 +167,14 @@ please contact the author at [LearningBotsOfficial](https://t.me/LearningBotsOff
 **Support Group:** [@LearningBotsCommunity](https://t.me/LearningBotsCommunity)  
 **Update Channel:** [@learning_bots](https://t.me/learning_bots)  
 **YouTube:** [Learning Bots](https://youtube.com/@learning_bots)
+
+
+<div align="center">
+
+## ---------------------
+
+<a href="https://files.catbox.moe/wpaoo2.jpg" target="_blank">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="45" width="190" alt="Buy Me a Coffee" />
+</a>
+
+</div>
