@@ -55,7 +55,7 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 ### 2. Get Your Fork URL
 ```
-https://github.com/<your-username>/Nomade.git
+https://github.com/<your-username>/NomadeHelpBot.git
 ```
 
 ---
@@ -71,7 +71,7 @@ sudo apt install -y git python3 python3-pip python3-venv tmux nano
 
 ### 4. Clone Your Fork
 ```
-git clone https://github.com/<your-username>/Nomade.git
+git clone https://github.com/<your-username>/NomadeHelpBot.git
 cd Nomade
 python3 -m venv venv
 source venv/bin/activate
