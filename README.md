@@ -34,7 +34,7 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 <p align="center">
   <!-- Upgraded Video Button -->
-  <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+  <a href="https://youtu.be/35zzgtJIw8Q?si=d6eNOWxyutTlHgMz" target="_blank">
     <img src="https://img.shields.io/badge/Watch%20Tutorial-red?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Tutorial">
   </a>
 
