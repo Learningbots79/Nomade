@@ -1,7 +1,7 @@
 <div align="center">
 
-<a href="https://files.catbox.moe/4p4kue.jpg">
-  <img src="https://files.catbox.moe/4p4kue.jpg" width="300" height="300" />
+<a href="https://files.catbox.moe/o5eekb.jpg">
+  <img src="https://files.catbox.moe/o5eekb.jpg" width="300" height="300" />
 </a>
 
 ![Stars](https://img.shields.io/github/stars/LearningBotsOfficial/Nomade)
