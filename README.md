@@ -14,6 +14,30 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 ---
 
+## 🔗 Official Nomade Links (Important)
+
+This repository provides a **basic open-source version** of the Nomade Help Bot  
+for learning, self-hosting, and customization purposes.
+
+🚀 **For the fully upgraded, actively maintained & production-ready bot**, use the official links below:
+
+- 🤖 **Official Working Bot:**  
+  👉 https://t.me/NomadeHelpBot
+
+- 📢 **Official Update Channel:**  
+  👉 https://t.me/NomadeOfficial
+
+- 🆘 **Official Support Group:**  
+  👉 https://t.me/NomadeSupport
+
+⚠️ **Note:**  
+This GitHub repository may not always reflect the **latest features, security updates, or premium optimizations** available in the official bot.
+
+
+
+
+---
+
 ## ⭐ Features
 - **Owner Command**: `/broadcast`, `/stats`
 - **Group Moderation**: kick, ban/unban, mute/unmute, warn, warns, resetwarns, promote/demote  
