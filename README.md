@@ -14,7 +14,8 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 ---
 
-## 🔗 Official Nomade Links
+<details>
+<summary><b>## 🔗 Official Nomade Links</b></summary>
 
 This repository contains the **basic open-source edition** of Nomade Help Bot.  
 For the **fully upgraded & officially maintained version**, use the links below.
@@ -33,7 +34,7 @@ For the **fully upgraded & officially maintained version**, use the links below.
 
 > ⚠️ This repository may not always include the latest features or security updates available in the official bot.
 
-
+</details>
 
 
 ---
