@@ -14,24 +14,24 @@ A **Group Manager Bot** built with **Pyrogram** + **MongoDB** for managing Teleg
 
 ---
 
-## 🔗 Official Nomade Links (Important)
+## 🔗 Official Nomade Links
 
-This repository provides a **basic open-source version** of the Nomade Help Bot  
-for learning, self-hosting, and customization purposes.
+This repository contains the **basic open-source edition** of Nomade Help Bot.  
+For the **fully upgraded & officially maintained version**, use the links below.
 
-🚀 **For the fully upgraded, actively maintained & production-ready bot**, use the official links below:
+<p align="center">
+  <a href="https://t.me/NomadeHelpBot">
+    <img src="https://img.shields.io/badge/🤖%20Official%20Bot-Open-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white">
+  </a>
+  <a href="https://t.me/NomadeOfficial">
+    <img src="https://img.shields.io/badge/📢%20Updates-Channel-0088cc?style=for-the-badge&logo=telegram&logoColor=white">
+  </a>
+  <a href="https://t.me/NomadeSupport">
+    <img src="https://img.shields.io/badge/🆘%20Support-Group-229ED9?style=for-the-badge&logo=telegram&logoColor=white">
+  </a>
+</p>
 
-- 🤖 **Official Working Bot:**  
-  👉 https://t.me/NomadeHelpBot
-
-- 📢 **Official Update Channel:**  
-  👉 https://t.me/NomadeOfficial
-
-- 🆘 **Official Support Group:**  
-  👉 https://t.me/NomadeSupport
-
-⚠️ **Note:**  
-This GitHub repository may not always reflect the **latest features, security updates, or premium optimizations** available in the official bot.
+> ⚠️ This repository may not always include the latest features or security updates available in the official bot.
 
 
 
