@@ -46,8 +46,8 @@ Highlights:
                 InlineKeyboardButton("⌂ Update ⌂", url=UPDATE_CHANNEL),
             ],
             [
-                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://user?id={OWNER_ID}"),
-                InlineKeyboardButton("Repo", url="https://github.com/LearningBotsOfficial/Nomade"),
+                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://openmessage?user_id={OWNER_ID}"),
+                InlineKeyboardButton("Chatting Group", url="https://t.me/+vtycyXXk3UE0NThl"),
                 
             ],
             [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
