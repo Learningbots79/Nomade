@@ -1,9 +1,9 @@
 # ============================================================
 # Group Manager Bot
-# Author: learningbots79 (https://github.com/learningbots79)
-# Support: https://t.me/LearningBotsCommunity
-# Channel: https://t.me/learning_bots
-# YouTube: https://youtube.com/@learning_bots
+# Author:  II_StarkxRich_II
+# Support: https://t.me/ll_CarelessxCoder_ll
+# Channel: https://t.me/II_StarkxRich_II
+# YouTube: https://t.me/II_StarkxRich_II
 # License: Open-source (keep credits, no resale)
 # ============================================================
 
@@ -27,7 +27,7 @@ class HealthHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.end_headers()
-        self.wfile.write(b"Nomade Help Bot is running")
+        self.wfile.write(b"Stark Help Bot is running")
 
 def start_web_server():
     server = HTTPServer(("0.0.0.0", PORT), HealthHandler)
