@@ -25,32 +25,31 @@ def register_handlers(app: Client):
     async def send_start_menu(message, user):
         text = f"""
 
-   ✨ Hello {user}! ✨
+❍ нєу {user} ! 💕
+❍ ᴛʜɪs ɪs ⋆⏤‌‌‌‌ 𝙂𝙍𝙊𝙐𝙋 𝙃𝙀𝙇𝙋
+╔══════════════════╗
+     📝 𝗛𝗜𝗚𝗛𝗟𝗜𝗚𝗛𝗧𝗦 📌
+╚══════════════════╝
+❍ sᴍᴀʀᴛ ᴀɴᴛɪ-sᴘᴀᴍ & ʟɪɴᴋ sʜɪᴇʟᴅ
+❍ ᴀᴅᴀᴘᴛɪᴠᴇ ʟᴏᴄᴋ sʏsᴛᴇᴍ (ᴜʀʟ's, ᴍᴇᴅɪᴀ, ʟᴀɴɢᴜᴀɢᴇ & ᴍᴏʀᴇ)
+❍ ᴍᴏᴅᴜʟᴀʀ & sᴄᴀʟᴀʙʟᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ
+❍ sʟᴇᴇᴋ ᴜɪ ᴡɪᴛʜ ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs
 
-👋 I am Stark Help Bot 🤖 
-
-Highlights:
-─────────────────────────────
-- Smart Anti-Spam & Link Shield
-- Adaptive Lock System (URLs, Media, Language & more)
-- Modular & Scalable Protection
-- Sleek UI with Inline Controls
-
-» More New Features coming soon ...
+» ᴍᴏʀᴇ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ ...
 """
 
         buttons = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⚒️ Add to Group ⚒️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("˹ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ˼", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [
-                InlineKeyboardButton("⌂ Support ⌂", url=SUPPORT_GROUP),
-                InlineKeyboardButton("⌂ Update ⌂", url=UPDATE_CHANNEL),
+                InlineKeyboardButton("˹sᴜᴘᴘᴏʀᴛ˼", url=SUPPORT_GROUP),
+                InlineKeyboardButton("˹ᴜᴘᴅᴀᴛᴇ˼", url=UPDATE_CHANNEL),
             ],
             [
-                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://openmessage?user_id={OWNER_ID}"),
-                InlineKeyboardButton("Chatting Group", url="https://t.me/+vtycyXXk3UE0NThl"),
+                InlineKeyboardButton("˹ᴏᴡɴᴇʀ˼", url=f"tg://openmessage?user_id={OWNER_ID}"),
+                InlineKeyboardButton("˹ɢʀᴏᴜᴘ˼", url="https://t.me/+vtycyXXk3UE0NThl"),
                 
             ],
-            [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
+            [InlineKeyboardButton("˹ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ˼", callback_data="help")]
         ])
 
         # If /start command, send a new photo
