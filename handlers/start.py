@@ -84,13 +84,13 @@ def register_handlers(app: Client):
 """
         buttons = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("⌂ Greetings ⌂", callback_data="greetings"),
-                InlineKeyboardButton("⌂ Locks ⌂", callback_data="locks"),
+                InlineKeyboardButton("˹ɢʀᴇᴇᴛɪɴɢs˼", callback_data="greetings"),
+                InlineKeyboardButton("˹ʟᴏᴄᴋs˼", callback_data="locks"),
             ],
             [
-                InlineKeyboardButton("⌂ Moderation ⌂", callback_data="moderation")
+                InlineKeyboardButton("˹ᴍᴏᴅᴇʀᴀᴛɪᴏɴ˼", callback_data="moderation")
             ],
-            [InlineKeyboardButton("🔙 Back", callback_data="back_to_start")]
+            [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="back_to_start")]
         ])
 
         media = InputMediaPhoto(media=START_IMAGE, caption=text)
@@ -174,7 +174,7 @@ def register_handlers(app: Client):
  ¤ /unlock sticker : ᴀʟʟᴏᴡs sᴛɪᴄᴋᴇʀs ᴀɢᴀɪɴ
 """
         buttons = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔙 Back", callback_data="help")]
+            [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="help")]
         ])
         media = InputMediaPhoto(media=START_IMAGE, caption=text)
         await callback_query.message.edit_media(media=media, reply_markup=buttons)
@@ -209,7 +209,7 @@ def register_handlers(app: Client):
 /ban @username
 """
             buttons = InlineKeyboardMarkup([
-                [InlineKeyboardButton("🔙 Back", callback_data="help")]
+                [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="help")]
             ])
     
             media = InputMediaPhoto(media=START_IMAGE, caption=text)
