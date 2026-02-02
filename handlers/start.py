@@ -202,7 +202,8 @@ def register_handlers(app: Client):
 ¤ /warns  — ᴠɪᴇᴡ ᴡᴀʀɴɪɴɢs  
 ¤ /resetwarns  — ᴄʟᴇᴀʀ ᴀʟʟ ᴡᴀʀɴɪɴɢs  
 ¤ /promote  — ᴍᴀᴋᴇ ᴀᴅᴍɪɴ  
-¤ /demote  — ʀᴇᴍᴏᴠᴇ ғʀᴏᴍ ᴀᴅᴍɪɴ  
+¤ /demote  — ʀᴇᴍᴏᴠᴇ ғʀᴏᴍ ᴀᴅᴍɪɴ 
+¤ /tagall — Tag all members & Admins
 
 💡 ᴇxᴀᴍᴘʟᴇ:
 ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ ᴏʀ ᴛʏᴘᴇ  
