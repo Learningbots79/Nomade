@@ -25,32 +25,31 @@ def register_handlers(app: Client):
     async def send_start_menu(message, user):
         text = f"""
 
-   ✨ Hello {user}! ✨
+❍ нєу {user} ! 💕
+❍ ᴛʜɪs ɪs ⋆⏤‌‌‌‌ 𝙂𝙍𝙊𝙐𝙋 𝙃𝙀𝙇𝙋
+╔══════════════════╗
+     📝 𝗛𝗜𝗚𝗛𝗟𝗜𝗚𝗛𝗧𝗦 📌
+╚══════════════════╝
+❍ sᴍᴀʀᴛ ᴀɴᴛɪ-sᴘᴀᴍ & ʟɪɴᴋ sʜɪᴇʟᴅ
+❍ ᴀᴅᴀᴘᴛɪᴠᴇ ʟᴏᴄᴋ sʏsᴛᴇᴍ (ᴜʀʟ's, ᴍᴇᴅɪᴀ, ʟᴀɴɢᴜᴀɢᴇ & ᴍᴏʀᴇ)
+❍ ᴍᴏᴅᴜʟᴀʀ & sᴄᴀʟᴀʙʟᴇ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ
+❍ sʟᴇᴇᴋ ᴜɪ ᴡɪᴛʜ ɪɴʟɪɴᴇ ᴄᴏɴᴛʀᴏʟs
 
-👋 I am Nomad 🤖 
-
-Highlights:
-─────────────────────────────
-- Smart Anti-Spam & Link Shield
-- Adaptive Lock System (URLs, Media, Language & more)
-- Modular & Scalable Protection
-- Sleek UI with Inline Controls
-
-» More New Features coming soon ...
+» ᴍᴏʀᴇ ɴᴇᴡ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ ...
 """
 
         buttons = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⚒️ Add to Group ⚒️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("˹ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ˼", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [
-                InlineKeyboardButton("⌂ Support ⌂", url=SUPPORT_GROUP),
-                InlineKeyboardButton("⌂ Update ⌂", url=UPDATE_CHANNEL),
+                InlineKeyboardButton("˹sᴜᴘᴘᴏʀᴛ˼", url=SUPPORT_GROUP),
+                InlineKeyboardButton("˹ᴜᴘᴅᴀᴛᴇ˼", url=UPDATE_CHANNEL),
             ],
             [
-                InlineKeyboardButton("※ ŎŴɳēŔ ※", url=f"tg://user?id={OWNER_ID}"),
-                InlineKeyboardButton("Repo", url="https://github.com/LearningBotsOfficial/Nomade"),
+                InlineKeyboardButton("˹ᴏᴡɴᴇʀ˼", url=f"tg://openmessage?user_id={OWNER_ID}"),
+                InlineKeyboardButton("˹ɢʀᴏᴜᴘ˼", url="https://t.me/+vtycyXXk3UE0NThl"),
                 
             ],
-            [InlineKeyboardButton("📚 Help Commands 📚", callback_data="help")]
+            [InlineKeyboardButton("˹ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅ˼", callback_data="help")]
         ])
 
         # If /start command, send a new photo
@@ -76,21 +75,22 @@ Highlights:
     async def send_help_menu(message):
         text = """
 ╔══════════════════╗
-     Help Menu
+    🆘 𝗛𝗘𝗟𝗣 𝗠𝗘𝗡𝗨
 ╚══════════════════╝
 
-Choose a category below to explore commands:
-─────────────────────────────
+━━━━━━━━━━━━━━━━━━━━━━━━
+🧑‍💻 ᴄʜᴏᴏsᴇ ᴀ ᴄᴀᴛᴇɢᴏʀʏ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴄᴏᴍᴍᴀɴᴅs:
+━━━━━━━━━━━━━━━━━━━━━━━━
 """
         buttons = InlineKeyboardMarkup([
             [
-                InlineKeyboardButton("⌂ Greetings ⌂", callback_data="greetings"),
-                InlineKeyboardButton("⌂ Locks ⌂", callback_data="locks"),
+                InlineKeyboardButton("˹ɢʀᴇᴇᴛɪɴɢs˼", callback_data="greetings"),
+                InlineKeyboardButton("˹ʟᴏᴄᴋs˼", callback_data="locks"),
             ],
             [
-                InlineKeyboardButton("⌂ Moderation ⌂", callback_data="moderation")
+                InlineKeyboardButton("˹ᴍᴏᴅᴇʀᴀᴛɪᴏɴ˼", callback_data="moderation")
             ],
-            [InlineKeyboardButton("🔙 Back", callback_data="back_to_start")]
+            [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="back_to_start")]
         ])
 
         media = InputMediaPhoto(media=START_IMAGE, caption=text)
@@ -120,23 +120,24 @@ Choose a category below to explore commands:
     async def greetings_callback(client, callback_query):
         text = """
 ╔══════════════════╗
-    ⚙ Welcome System
+  ⚙️ 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗦𝗬𝗦𝗧𝗘𝗠
 ╚══════════════════╝
 
-Commands to Manage Welcome Messages:
+🎚️ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴍᴀɴᴀɢᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs:
 
-- /setwelcome <text> : Set a custom welcome message for your group
-- /welcome on        : Enable the welcome messages
-- /welcome off       : Disable the welcome messages
+¤ /setwelcome : sᴇᴛ ᴀ ᴄᴜsᴛᴏᴍ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘ
+¤ /welcome on : ᴇɴᴀʙʟᴇ ᴛʜᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs
+¤ /welcome off : ᴅɪsᴀʙʟᴇ ᴛʜᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs
 
-Supported Placeholders:
-- {username} : Telegram username
-- {first_name} : User's first name
-- {id} : User ID
-- {mention} : Mention user in message
+🎛️ sᴜᴘᴘᴏʀᴛᴇᴅ ᴘʟᴀᴄᴇʜᴏʟᴅᴇʀs:
 
-Example:
- /setwelcome Hello {first_name}! Welcome to {title}!
+¤ {ᴜsᴇʀɴᴀᴍᴇ} : ᴛᴇʟᴇɢʀᴀᴍ ᴜsᴇʀɴᴀᴍᴇ
+¤ {ғɪʀsᴛ_ɴᴀᴍᴇ} : ᴜsᴇʀ's ғɪʀsᴛ ɴᴀᴍᴇ
+¤ {ɪᴅ} : ᴜsᴇʀ ɪᴅ
+¤ {ᴍᴇɴᴛɪᴏɴ} : ᴍᴇɴᴛɪᴏɴ ᴜsᴇʀ ɪɴ ᴍᴇssᴀɢᴇ
+
+🧾 ᴇxᴀᴍᴘʟᴇ:
+¤ /sᴇᴛᴡᴇʟᴄᴏᴍᴇ ʜᴇʟʟᴏ {ғɪʀsᴛ_ɴᴀᴍᴇ}! ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ {ᴛɪᴛʟᴇ}!
 """
         buttons = InlineKeyboardMarkup([
             [InlineKeyboardButton("🔙 Back", callback_data="help")]
@@ -151,29 +152,29 @@ Example:
     @app.on_callback_query(filters.regex("locks"))
     async def locks_callback(client, callback_query):
         text = """
-╔══════════════════╗
-     ⚙ Locks System
-╚══════════════════╝
-
-Commands to Manage Locks:
-
-- /lock <type>    : Enable a lock for the group
-- /unlock <type>  : Disable a lock for the group
-- /locks          : Show currently active locks
-
-Available Lock Types:
-- url       : Block links
-- sticker   : Block stickers
-- media     : Block photos/videos/gifs
-- username  : Block messages with @username mentions
-- language  : Block non-English messages
-
-Example:
- /lock url       : Blocks any messages containing links
- /unlock sticker : Allows stickers again
+╔══════════════════╗  
+   🔐 𝗟𝗢𝗖𝗞 𝗦𝗬𝗦𝗧𝗘𝗠  
+╚══════════════════╝  
+  
+🔏ᴄᴏᴍᴍᴀɴᴅs ᴛᴏ ᴍᴀɴᴀɢᴇ ʟᴏᴄᴋs:  
+  
+¤ /lock    : ᴇɴᴀʙʟᴇ ᴀ ʟᴏᴄᴋ ғᴏʀ ᴛʜᴇ ɢʀᴏᴜᴘ  
+¤ /unlock : ᴅɪsᴀʙʟᴇ ᴀ ʟᴏᴄᴋ ғᴏʀ ᴛʜᴇ ɢʀᴏᴜᴘ  
+¤ /locks    : sʜᴏᴡ ᴄᴜʀʀᴇɴᴛʟʏ ᴀᴄᴛɪᴠᴇ ʟᴏᴄᴋs  
+  
+🔒ᴀᴠᴀɪʟᴀʙʟᴇ ʟᴏᴄᴋ ᴛʏᴘᴇs:  
+¤ ᴜʀʟ        : ʙʟᴏᴄᴋ ʟɪɴᴋs  
+¤ sᴛɪᴄᴋᴇʀ : ʙʟᴏᴄᴋ sᴛɪᴄᴋᴇʀs  
+¤ ᴍᴇᴅɪᴀ    : ʙʟᴏᴄᴋ ᴘʜᴏᴛᴏs / ᴠɪᴅᴇᴏs / ɢɪғs  
+¤ ᴜsᴇʀɴᴀᴍᴇ  : ʙʟᴏᴄᴋ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ @ᴜsᴇʀɴᴀᴍᴇ ᴍᴇɴᴛɪᴏɴs  
+¤ ʟᴀɴɢᴜᴀɢᴇ  : ʙʟᴏᴄᴋ ɴᴏɴ-ᴇɴɢʟɪsʜ ᴍᴇssᴀɢᴇs  
+  
+🔓ᴇxᴀᴍᴘʟᴇ:  
+¤ /lock url       : ʙʟᴏᴄᴋs ᴀɴʏ ᴍᴇssᴀɢᴇs ᴄᴏɴᴛᴀɪɴɪɴɢ ʟɪɴᴋs  
+ ¤ /unlock sticker : ᴀʟʟᴏᴡs sᴛɪᴄᴋᴇʀs ᴀɢᴀɪɴ
 """
         buttons = InlineKeyboardMarkup([
-            [InlineKeyboardButton("🔙 Back", callback_data="help")]
+            [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="help")]
         ])
         media = InputMediaPhoto(media=START_IMAGE, caption=text)
         await callback_query.message.edit_media(media=media, reply_markup=buttons)
@@ -187,29 +188,29 @@ Example:
         try:
             text = """
 ╔══════════════════╗
-      ⚙️ Moderation System
+ 🧑‍💻𝗠𝗢𝗗𝗘𝗥𝗔𝗧𝗜𝗢𝗡 𝗦𝗬𝗦𝗧𝗘𝗠
 ╚══════════════════╝
 
-Manage your group easily with these tools:
+🧑‍💻ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ ᴡɪᴛʜ ᴛʜᴇsᴇ ᴛᴏᴏʟs:
 
-¤ /kick <user> — Remove a user  
-¤ /ban <user> — Ban permanently  
-¤ /unban <user> — Lift ban  
-¤ /mute <user> — Disable messages  
-¤ /unmute <user> — Allow messages again  
-¤ /warn <user> — Add warning (3 = mute)  
-¤ /warns <user> — View warnings  
-¤ /resetwarns <user> — Clear all warnings  
-¤ /promote <user> — make admin
-¤ /demote <user> — remove from admin  
+¤ /kick  — ʀᴇᴍᴏᴠᴇ ᴀ ᴜsᴇʀ  
+¤ /ban  — ʙᴀɴ ᴘᴇʀᴍᴀɴᴇɴᴛʟʏ  
+¤ /unban  — ʟɪғᴛ ʙᴀɴ  
+¤ /mute  — ᴅɪsᴀʙʟᴇ ᴍᴇssᴀɢᴇs  
+¤ /unmute  — ᴀʟʟᴏᴡ ᴍᴇssᴀɢᴇs ᴀɢᴀɪɴ  
+¤ /warn  — ᴀᴅᴅ ᴡᴀʀɴɪɴɢ (3 = ᴍᴜᴛᴇ)  
+¤ /warns  — ᴠɪᴇᴡ ᴡᴀʀɴɪɴɢs  
+¤ /resetwarns  — ᴄʟᴇᴀʀ ᴀʟʟ ᴡᴀʀɴɪɴɢs  
+¤ /promote  — ᴍᴀᴋᴇ ᴀᴅᴍɪɴ  
+¤ /demote  — ʀᴇᴍᴏᴠᴇ ғʀᴏᴍ ᴀᴅᴍɪɴ 
+¤ /tagall — Tag all members & Admins
 
-💡 Example:
-Reply to a user or type  
-<code>/ban @username</code>
-
+💡 ᴇxᴀᴍᴘʟᴇ:
+ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜsᴇʀ ᴏʀ ᴛʏᴘᴇ  
+/ban @username
 """
             buttons = InlineKeyboardMarkup([
-                [InlineKeyboardButton("🔙 Back", callback_data="help")]
+                [InlineKeyboardButton("🔙 ˹ʙᴀᴄᴋ˼", callback_data="help")]
             ])
     
             media = InputMediaPhoto(media=START_IMAGE, caption=text)

@@ -13,6 +13,7 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.raw import types
 import logging
 import db
+import asyncio
 
 DEFAULT_WELCOME = "👋 Welcome {first_name} to {title}!"
 
@@ -486,6 +487,36 @@ def register_group_commands(app: Client):
             return await message.reply_text("⚠️ You cannot demote the group owner.")
         if user.id == message.from_user.id:
             return await message.reply_text("❌ You cannot demote yourself.")
+
+# ==========================================================
+# Tag All Command
+# ==========================================================
+@app.on_message(filters.group & filters.command("tagall"))
+async def tagall_users(client: Client, message: Message):
+
+    # Admin check
+    if not await is_power(client, message.chat.id, message.from_user.id):
+        return await message.reply_text("❌ Only admin can use this command.")
+
+    text = "📢 **Tag All:**\n\n"
+    count = 0
+
+    async for member in client.get_chat_members(message.chat.id):
+        user = member.user
+        if user.is_bot:
+            continue
+
+        text += f"[{user.first_name}](tg://user?id={user.id}) "
+        count += 1
+
+        # Safe limit
+        if count % 5 == 0:
+            await message.reply_text(text, disable_web_page_preview=True)
+            await asyncio.sleep(2)
+            text = "📢 **Tag All:**\n\n"
+
+    if text.strip() != "📢 **Tag All:**":
+        await message.reply_text(text)
     
         try:
             no_privileges = ChatPrivileges(
